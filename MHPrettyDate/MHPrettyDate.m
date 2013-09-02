@@ -33,7 +33,7 @@
 @property (readonly, nonatomic) NSDate*            tomorrow;
 @property (readonly, nonatomic) NSDate*            weekAgo;
 @property (readonly, nonatomic) NSCalendar*        calendar;
-@property (strong, nonatomic)   NSDateFormatter*   dateFormatter;
+//@property (strong, nonatomic)   NSDateFormatter*   dateFormatter;
 @property (assign)              MHPrettyDateFormat dateFormat;
 
 +(MHPrettyDate*) sharedInstance;
